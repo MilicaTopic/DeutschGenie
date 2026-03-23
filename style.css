@@ -312,6 +312,12 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,.05);
 }
 
+.feature-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .feature-icon {
   width: 70px;
   height: 70px;
@@ -497,6 +503,12 @@ body {
   flex: 1;
 }
 
+.testi-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .testi-stars {
   color: #f5a623;
   font-size: 16px;
@@ -552,6 +564,57 @@ body {
 }
 
 .footer-social a:hover { background: #cc6a00; }
+.cta-section {
+  background: #cc6a00;
+  padding: 70px 60px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.cta-section p {
+  color: rgba(255,255,255,.85);
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 480px;
+  margin: 0 auto 28px;
+}
+
+.cta-section .btn-primary {
+  background: white;
+  color: #cc6a00;
+  border: 2px solid white;
+  padding: 16px 36px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.cta-section .btn-primary:hover {
+  background: transparent;
+  color: white;
+}
+
+.btn-primary {
+  background: #09a009;
+  border: 2px solid #09a009;
+  padding: 12px 18px;
+  color: white;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Albert Sans', sans-serif;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #078007;
+  border-color: #078007;
+}
 
 @media (max-width: 1100px) {
   .navbar {
@@ -676,6 +739,12 @@ body {
     align-items: center;
     gap: 12px;
   }
+
+  .designed-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
   .designed-card {
     width: 100%;
     max-width: 300px;
@@ -734,7 +803,7 @@ body {
     gap: 16px;
   }
   .testi-card { width: 100%; }
-  
+
   .footer {
     flex-direction: column;
     gap: 16px;
@@ -743,5 +812,18 @@ body {
   }
   .footer-social { justify-content: center; }
   .footer-logo { justify-content: center; }
+
+    .cta-section {
+    padding: 50px 20px;
+  }
+
+  .cta-section h2 {
+    font-size: 24px;
+  }
+
+  .cta-section .btn-primary {
+    width: 100%;
+    max-width: 280px;
+  }
 
 }
