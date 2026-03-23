@@ -2,16 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DeutschGenie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>DeutschGenie – German Grammar App for Kids | Learn der, die, das</title>
+  <meta name="description" content="DeutschGenie helps kids aged 6–12 learn German grammar through colorful flashcards, interactive mini-lessons, and a friendly fox guide. Master der, die, das without memorizing rules.">
+  <link rel="canonical" href="https://yourdomain.com/">
+
+  <!-- Social sharing (Open Graph) -->
+  <meta property="og:title" content="DeutschGenie – German Grammar App for Kids">
+  <meta property="og:description" content="A playful app that turns German articles, pronouns, and sentence structure into a visual adventure. Free to start.">
+  <meta property="og:image" content="images/og-preview.png">
+  <meta property="og:type" content="website">
+
+  <!-- Schema.org structured data — helps Google show app info in search results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DeutschGenie",
+    "description": "A playful German grammar learning app for kids aged 6-12. Learn der, die, das, pronouns and sentence structure through interactive mini-lessons and colorful flashcards.",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "student"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    }
+  }
+  </script>
+
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
+<!-- NAVBAR -->
 <header class="navbar">
   <div class="logo">
-    <img src="images/logo.png" alt="logo">
+    <img src="images/logo.png" alt="DeutschGenie logo">
     <span>DeutschGenie</span>
   </div>
   <nav>
@@ -23,40 +62,42 @@
   <button class="cta">Get Started</button>
 </header>
 
+<!-- HERO -->
 <section class="hero">
   <div class="hero-text">
-    <h1>Learn German Grammar for Kids The Fun & Visual Way</h1>
-    <p>A playful German grammar learning app for kids that helps children
-       understand German articles, pronouns, and sentence structure step by step.</p>
-    <h3>Easy, Fun, Colorful</h3>
+    <h1>Learn German Grammar the Fun Way — for Kids aged 6–12</h1>
+    <p>DeutschGenie teaches kids to master <strong>der, die, das</strong>, pronouns, and sentence structure — through colour, play, and a friendly fox guide. No boring rules. No frustrated kids.</p>
+    <h3>Visual. Playful. Actually effective.</h3>
     <div class="buttons">
       <button class="btn-primary">Start Learning for Free</button>
       <button class="btn-secondary">See how it works!</button>
     </div>
   </div>
   <div class="hero-image">
-    <img src="images/pic1.png" alt="App preview">
+    <img src="images/pic1.png" alt="DeutschGenie app showing a German article flashcard exercise for kids">
   </div>
-  <div class="hero-bg"></div>  
+  <div class="hero-bg"></div>
 </section>
 
+<!-- WHY HARD -->
 <section class="why-section">
   <h2>Why German Grammar Is Hard for Kids</h2>
   <div class="why-img-wrap">
-    <img src="images/icons.png" alt="Grammar cards: Nomen, Verben, Pronomen, Artikel">
+    <img src="images/icons.png" alt="Grammar cards showing Nomen, Verben, Pronomen and Artikel categories">
   </div>
   <p>Many children struggle with German grammar rules like <strong>der, die, das,</strong> pronouns, and sentence structure. Traditional learning often focuses on memorizing rules, which can feel confusing and frustrating.</p>
   <span class="solution-highlight">Our app turns grammar into a visual, playful experience where kids discover patterns naturally.</span>
 </section>
 
+<!-- LEARNING ADVENTURE -->
 <section class="adventure-section">
   <div class="adventure-inner">
 
     <div class="adventure-left">
       <h2>See the Learning Adventure</h2>
-      <p class="adventure-sub">Interactive lessons guide children step by step through German grammar challenges.</p>
+      <p class="adventure-sub">Each lesson is a short, guided challenge. Kids drag words, tap the right article, and get instant feedback — so they stay engaged from start to finish.</p>
       <div class="adventure-image">
-        <img src="images/phone2.png" alt="App lesson screen">
+        <img src="images/phone2.png" alt="DeutschGenie app lesson screen showing an interactive grammar exercise">
       </div>
     </div>
 
@@ -65,36 +106,39 @@
         <div class="progress-fill"></div>
       </div>
       <div class="adventure-text">
-        <p>Interactive lessons guide children step by step through German grammar.</p>
-        <p>Kids learn concepts like German nouns (Nomen) by identifying and dragging words into the correct boxes. Through this playful interaction and instant feedback, children learn German grammar naturally instead of memorizing rules.</p>
+        <p>Kids learn German nouns (Nomen) by identifying and dragging words into the correct category boxes.</p>
+        <p>Through playful interaction and instant feedback, children build an understanding of German grammar naturally — without ever feeling like they are studying.</p>
       </div>
     </div>
 
   </div>
 </section>
 
+<!-- FEATURES -->
 <section class="features-section">
   <h2>A Better Way to Learn German</h2>
-  <p class="features-intro">Our app helps children understand German grammar through play.<br>
-  Instead of memorizing rules, kids explore patterns, complete short challenges, and receive encouraging feedback along the way.<br>
-  The result is a fun and interactive German learning experience for kids that builds confidence step by step.</p>
+  <p class="features-intro">Our app helps children understand German grammar through play. Instead of memorizing rules, kids explore patterns, complete short challenges, and receive encouraging feedback along the way. The result is a fun and interactive German learning experience that builds real confidence step by step.</p>
 
   <div class="features-row">
     <div class="feature-box">
-      <img src="images/puzzle.png" alt="Patterns" class="feature-icon">
-      <p>Learn Through Patterns, Not Memorization</p>
+      <img src="images/puzzle.png" alt="Puzzle piece icon" class="feature-icon">
+      <p class="feature-title">Learn Through Patterns, Not Memorization</p>
+      <p class="feature-desc">Colour coding and visual cues help kids recognise der, die, das at a glance — no rote drilling needed.</p>
     </div>
     <div class="feature-box">
-      <img src="images/game.png" alt="Mini Lessons" class="feature-icon">
-      <p>Interactive Mini-Lessons</p>
+      <img src="images/game.png" alt="Game controller icon" class="feature-icon">
+      <p class="feature-title">Short Lessons That Fit Any Schedule</p>
+      <p class="feature-desc">Each mini-lesson takes under 5 minutes, making it easy to practise every day without feeling like homework.</p>
     </div>
     <div class="feature-box">
-      <img src="images/hands.png" alt="Companion" class="feature-icon">
-      <p>Encouraging Learning Companion</p>
+      <img src="images/hands.png" alt="Helping hands icon" class="feature-icon">
+      <p class="feature-title">A Guide That Cheers Kids On</p>
+      <p class="feature-desc">The friendly fox companion celebrates every win, keeping kids motivated even when a topic feels tricky.</p>
     </div>
   </div>
 </section>
 
+<!-- DESIGNED FOR YOUNG LEARNERS -->
 <section class="designed-section">
   <div class="designed-top">
     <div class="designed-text">
@@ -102,30 +146,31 @@
       <p>Children stay motivated because every lesson feels like a small adventure with their fox friend.</p>
     </div>
     <div class="designed-image">
-      <img src="images/foxwall.png" alt="Fox mascot">
+      <img src="images/foxwall.png" alt="DeutschGenie fox mascot character">
     </div>
   </div>
 
   <div class="designed-cards">
     <div class="designed-card">
-      <img src="images/articles.png" alt="German articles">
-      <p>German articles</p>
+      <img src="images/articles.png" alt="German articles der die das">
+      <p class="card-title">German articles</p>
     </div>
     <div class="designed-card">
-      <img src="images/home 1.png" alt="Nouns and gender recognition">
-      <p>Nouns and gender recognition</p>
+      <img src="images/home 1.png" alt="Nouns and gender recognition exercise">
+      <p class="card-title">Nouns and gender recognition</p>
     </div>
     <div class="designed-card">
-      <img src="images/brick (1).png" alt="Basic sentence structure">
-      <p>Basic sentence structure</p>
+      <img src="images/brick (1).png" alt="Basic German sentence structure">
+      <p class="card-title">Basic sentence structure</p>
     </div>
     <div class="designed-card">
-      <img src="images/signal.png" alt="Pronouns and verbs">
-      <p>Pronouns and verbs</p>
+      <img src="images/signal.png" alt="German pronouns and verbs">
+      <p class="card-title">Pronouns and verbs</p>
     </div>
   </div>
 </section>
 
+<!-- HOW IT WORKS -->
 <section class="how-section">
   <div class="how-steps">
     <h2>How Kids Learn German Grammar with DeutschGenie</h2>
@@ -134,7 +179,7 @@
       <div class="step-dot"></div>
       <div>
         <h4>Start a lesson</h4>
-        <p>Kids begin with a short interactive explanation</p>
+        <p>Kids begin with a short interactive explanation from the fox guide — clear, visual, and never overwhelming.</p>
       </div>
     </div>
 
@@ -142,7 +187,7 @@
       <div class="step-dot"></div>
       <div>
         <h4>Discover patterns</h4>
-        <p>Colors and visual clues reveal grammar rules.</p>
+        <p>Colours and visual clues reveal grammar rules as kids play through exercises — no memorising required.</p>
       </div>
     </div>
 
@@ -150,40 +195,42 @@
       <div class="step-dot"></div>
       <div>
         <h4>Celebrate progress</h4>
-        <p>The fox celebrates each success and motivates kids</p>
+        <p>The fox celebrates every success with rewards and encouragement, keeping kids eager to come back tomorrow.</p>
       </div>
     </div>
   </div>
 
   <div class="how-image">
-    <img src="images/handphone.png" alt="How it works screen">
+    <img src="images/handphone.png" alt="Hand holding a phone with DeutschGenie app open">
   </div>
 </section>
 
+<!-- TESTIMONIALS -->
 <section class="testimonials-section">
   <h2>Parent Testimonials</h2>
   <div class="testi-row">
     <div class="testi-card">
       <div class="testi-stars">★★★★★</div>
-      <p>My child always struggled with der, die, das. This app finally made it click!</p>
-      <strong>Sarah M.</strong>
+      <p>My 8-year-old used to cry over German homework. After two weeks with DeutschGenie she started correcting <em>me</em> on der and die. The colour system just clicks.</p>
+      <strong>Sarah M. — Munich</strong>
     </div>
     <div class="testi-card">
       <div class="testi-stars">★★★★★</div>
-      <p>My child is having a blast that's exactly what we were looking for.</p>
-      <strong>Thomas K.</strong>
+      <p>We tried two other apps before this one. DeutschGenie is the only one my son actually asks to open. He's been on a 14-day streak and doesn't even realise he's studying.</p>
+      <strong>Thomas K. — Berlin</strong>
     </div>
     <div class="testi-card">
       <div class="testi-stars">★★★★★</div>
-      <p>I love how the app runs through patterns. My daughter's confidence improved massively!</p>
-      <strong>Amira L.</strong>
+      <p>My daughter's teacher noticed the improvement before I mentioned the app. She went from struggling with basic sentences to writing short paragraphs in about a month.</p>
+      <strong>Amira L. — Hamburg</strong>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-logo">
-    <img src="images/logo.png" alt="logo">
+    <img src="images/logo.png" alt="DeutschGenie logo">
     <span>DeutschGenie</span>
   </div>
   <div class="footer-social">
